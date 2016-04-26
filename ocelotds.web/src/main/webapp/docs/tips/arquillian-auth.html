@@ -61,7 +61,7 @@ user;{SSHA256}78jzX0iBjXiLGWXC7m8J3PS50P4RLGEWLO+kfrE0AVNmYY4kAdnJEw==;USERGP</c
 <pre><code class="java">   ...
    public static boolean loginFileUser(final String username, final String password) throws Exception {
       final ProgrammaticLogin login = new ProgrammaticLogin();
-      return login.login(username, password.toCharArray(), "fileRealm", true);
+      return login.login(username, password.toCharArray(), "test-file", true);
    }
    ...</code></pre>
 
